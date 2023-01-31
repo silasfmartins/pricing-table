@@ -8,7 +8,7 @@
 
 
 ## 💻 Projeto
-A aplicação é uma sidebar que aparece ou diminui conforme a interação do usuário ou o formato de tela.
+Landing Page que mostra três opções de serviços a serem assinados pelo usuário.
 
 ## 🔃 Requisitos para utilizar
 
@@ -29,7 +29,7 @@ Esse projeto não possui um sistema de versionamento.
 
 ## 🆙 Projeto no ar
 
-É possível acessar a aplicação através da URL: https://whiteboard-ten.vercel.app/ .
+É possível acessar a aplicação através da URL: https://silasfmartins.github.io/pricing-table/ .
 
 ## 👨‍💻 Contribuir / Contributing
 
