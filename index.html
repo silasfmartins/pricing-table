@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Pricing Table</title>
+</head>
+<body>
+  <header class="header-top">
+    <div class="switcher">
+      <input class="checkbox" id="checkbox" type="checkbox">
+      <label for="checkbox">
+        <img width="20" src="./assets/moon.svg" alt="Moon - Lua">
+        <img width="20" src="./assets/sun.svg" alt="Sun - Sol">
+        <div class="ball"></div>
+      </label>
+    </div>
+    <h1>Conheça nossos planos</h1>
+    <p>Conheça nossas soluções e escolha o plano ideal para o seu próximo projeto.</p>
+  </header>
+  <main>
+    <div class="table">
+      <span>Free</span>
+      <div class="price">
+        <span class="main-value">R$ 0</span><span class="value">,00</span>
+        <span class="month">/mês</span>
+      </div>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <hr>
+      <ul>
+        <li>
+          <img src="./assets/check.svg" alt="check">
+          <span class="topics">Lorem ipsum dolor sit amet</span>
+        </li>
+        <li>
+          <img src="./assets/check.svg" alt="check">
+          <span class="topics">Lorem ipsum dolor sit amet</span>
+        </li>
+      </ul>
+      <button class="sign">Assinar</button>
+    </div>
+    <div id="main-table">
+      <header id="master-plan">
+        <span id="main-span">Básico</span>
+        <button id="popular">Popular</button>
+      </header>
+      <div id="master-table">
+        <div class="price">
+          <span class="main-value">R$ 29</span><span class="value">,00</span>
+          <span class="month">/mês</span>
+        </div>
+        <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <ul>
+          <li>
+            <img src="./assets/check.svg" alt="check">
+            <span class="topics">Lorem ipsum dolor sit amet</span>
+          </li>
+          <li>
+            <img src="./assets/check.svg" alt="check">
+            <span class="topics">Lorem ipsum dolor sit amet</span>
+          </li>
+        </ul>
+        <button id="main-sign">Assinar</button>
+      </div>
+    </div>
+    <div class="table">
+      <span>Profissional</span>
+      <div class="price">
+        <span class="main-value">R$ 59</span><span class="value">,00</span>
+        <span class="month">/mês</span>
+      </div>
+      <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <hr>
+      <ul>
+        <li>
+          <img src="./assets/check.svg" alt="check">
+          <span class="topics">Lorem ipsum dolor sit amet</span>
+        </li>
+        <li>
+          <img src="./assets/check.svg" alt="check">
+          <span class="topics">Lorem ipsum dolor sit amet</span>
+        </li>
+      </ul>
+      <button class="sign">Assinar</button>
+    </div>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  max-width: 1440px;
+  height: 28rem;
+  background: #1D539E;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#popular {
+  cursor: auto;
+}
+
+.switcher {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: end;
+}
+
+label {
+  padding: 1rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  height: 0.5rem;
+  background: #121214;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-top: 0.25rem;
+}
+
+.checkbox:checked + label .ball {
+  margin-left: 12rem;
+  transform: translateX(4px);
+}
+
+.ball {
+  border-radius: 100%;
+  padding: 1rem;
+  background: #F1F1F1;
+  transition: transform 0.2s linear;
+  cursor: pointer;
+  position: absolute;
+  margin-right: 6rem;
+}
+
+body.dark main {
+  background: #000;
+}
+
+body.dark .table, body.dark #main-table {
+  background: #1d1c1c;
+  box-shadow: 2px 2px 2px 2px #21202c4d;
+}
+
+body.dark span {
+  color: white;
+}
+
+body.dark .month {
+  color: #828799;
+}
+
+body.dark .sign {
+  background: #000;
+  color: white;
+  border: none;
+}
+
+body.dark #main-sign {
+  background: white;
+  color: black;
+  border: none;
+}
+
+body.dark #master-plan {
+  box-shadow: 2px 2px 2px 2px #21202c4d;
+}
+
+body.dark #main-span,body.dark #popular {
+  color: black;
+}
+
+body.dark #popular {
+  background: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+p {
+  margin-top: 3rem;
+  max-width: 34.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFFFFF;
+  padding-inline: 0.5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  padding-bottom: 4rem;
+}
+
+.table {
+  width: 20rem;
+  height: 29rem;
+  border-radius: 8px;
+  background: #FFFFFF;
+  margin-top: -1.25rem;
+  box-shadow: 2px 2px 2px 2px #8e86b94d;
+  padding-inline: 1.75rem;
+  padding-top: 1.5rem;
+}
+
+#main-table {
+  width: 20rem;
+  height: 29rem;
+  border-radius: 8px;
+  background: #FFFFFF;
+  margin-top: -1.75rem;
+  box-shadow: 2px 2px 2px 2px #8e86b94d;
+}
+
+#master-table {
+  padding-inline: 1.75rem;
+}
+
+span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1E2338;
+}
+
+.price {
+  margin-top: 1.5rem;
+}
+
+.main-value {
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #1E2338;
+}
+
+.value {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1E2338;
+}
+
+.month {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #828799;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #828799;
+  margin-top: 0.75rem;
+  text-align: left;
+  max-width: 18rem;
+}
+
+hr {
+  margin-top: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+li {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.topics {
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #828799;
+}
+
+#master-plan {
+  width: 100%;
+  height: 4.75rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: #FFCC29;
+  box-shadow: 2px 2px 2px 2px #8e86b94d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 0;
+}
+
+#main-span {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #1D539E;
+}
+
+button {
+  border-radius: 2.5rem;
+  background: #1D539E;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  width: 5.5em;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.sign {
+  border-radius: 0.5rem;
+  background: white;
+  color: #1D539E;
+  padding: 0.75rem;
+  border: 1px solid #1D539E;
+  width: 16.5em;
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+
+#main-sign {
+  border-radius: 0.5rem;
+  background: #1D539E;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  width: 16.5em;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+    padding-inline: 0.5rem;
+    gap: 3rem;
+    align-items: center;
+  }
+  .table, #main-table {
+    width: 19rem;
+  }
+  .sign, #main-sign {
+    width: 15rem;
+  }
+}
+
+:root {
+  scrollbar-color: #2e73d1 #374151 ;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: #374151;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e73d1;
+  border-radius: 14px;
+}
