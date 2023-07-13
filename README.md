@@ -18,6 +18,7 @@ Landing Page que mostra três opções de serviços a serem assinados pelo usuá
 
 -   [ x ] HTML
 -   [ x ] CSS
+-   [ x ] Javascript
 
 ## :hammer_and_wrench: Features 
 
